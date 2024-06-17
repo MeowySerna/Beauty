@@ -1,0 +1,6 @@
+.hero {
+  margin-top: 60px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}

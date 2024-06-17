@@ -1,0 +1,11 @@
+.header__link {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #17191b;
+  text-decoration: none;
+  transition: .3s opacity linear;
+}
+.header__link:hover{
+    opacity: .6;
+}

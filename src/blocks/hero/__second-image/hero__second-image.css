@@ -1,0 +1,5 @@
+.hero__second-image{
+    background-image: url(../../../images/hero-owerview-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,8 @@
+.hero__images-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 300px;
+    width: 450px;
+    margin-top: 20px;
+    gap: 10px;
+}
