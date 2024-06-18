@@ -1,0 +1,18 @@
+.featured__title {
+    font-weight: 600;
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .featured__title::after{
+      content: 'FEATURED PRODUCTS';
+      position: absolute;
+      top: 65px;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+      letter-spacing: 7px;
+      left: 0;
+  }
+  

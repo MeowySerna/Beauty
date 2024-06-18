@@ -11,3 +11,14 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
+
+::selection {
+    background-color:#17191b;
+    color: white; 
+  }
+  
+
+  ::-webkit-selection {
+    background-color: #17191b;
+    color: white; 
+  }

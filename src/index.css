@@ -19,4 +19,17 @@
 @import url(blocks/hero/__overview-title/hero__overview-title.css);
 @import url(blocks/hero/__image/hero__image.css);
 
+@import url(blocks/featured/featured.css);
+@import url(blocks/featured/__title/featured__title.css);
+@import url(blocks/featured/__container/featured__container.css);
 
+@import url(blocks/card/card.css);
+@import url(blocks/card/__image/card__image.css);
+@import url(blocks/card/__title/card__title.css);
+@import url(blocks/card/__price/card__price.css);
+
+@import url(blocks/description/description.css);
+@import url(blocks/description/__text-container/description__text-container.css);
+@import url(blocks/description/__title/description__title.css);
+@import url(blocks/description/__text/description__text.css);
+@import url(blocks/description/__image/description__image.css);
