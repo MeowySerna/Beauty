@@ -4,6 +4,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import api from "../utils/Api";
 import Description from "./Description";
+import Contacts from "./Contacts";
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -13,7 +14,7 @@ function App() {
       .getProducts()
       .then((cardsData) => {
         console.log(cardsData);
-        setCards(cardsData.products); 
+        setCards(cardsData.products);
       })
       .catch((error) => {
         console.error(error);
@@ -25,8 +26,9 @@ function App() {
       <Header />
       <main className="main">
         <Hero />
-        <Featured cards={cards.slice(0, 5)} /> 
+        <Featured cards={cards.slice(0, 5)} />
         <Description></Description>
+        <Contacts></Contacts>
       </main>
     </div>
   );

@@ -33,3 +33,14 @@
 @import url(blocks/description/__title/description__title.css);
 @import url(blocks/description/__text/description__text.css);
 @import url(blocks/description/__image/description__image.css);
+
+@import url(blocks/contacts/contacts.css);
+@import url(blocks/contacts/__title/contacts__title.css);
+@import url(blocks/contacts/__text-container/contacts__text-container.css);
+@import url(blocks/contacts/__list/contacts__list.css);
+@import url(blocks/contacts/__socials-container/contacts__socials-container.css);
+@import url(blocks/contacts/__text-title/contacts__text-title.css);
+@import url(blocks/contacts/__span-accent/contacts__span-accent.css);
+@import url(blocks/contacts/__socials-title/contacts__socials-title.css);
+@import url(blocks/contacts/__socials-list/contacts__socials-list.css);
+@import url(blocks/contacts/__socials-span/contacts__socials-span.css);

@@ -2,4 +2,5 @@
     background-image: url(../../../images/description.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid #000;
 }

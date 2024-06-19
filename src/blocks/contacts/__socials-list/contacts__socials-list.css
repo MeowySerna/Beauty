@@ -1,0 +1,7 @@
+.contacts__socials-list{
+    margin: 0;
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

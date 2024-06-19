@@ -1,0 +1,12 @@
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 0;
+  padding: 40px;
+  border-left: none;
+  list-style:square;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 50px;
+}

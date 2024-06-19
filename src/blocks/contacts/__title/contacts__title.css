@@ -1,0 +1,20 @@
+.contacts__title {
+    font-weight: 600;
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    grid-column: span 3;
+    margin-top: 30px;
+  }
+  .contacts__title::after{
+      content: 'CONTACT US';
+      position: absolute;
+      top: 65px;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+      letter-spacing: 6px;
+      left: 0;
+  }
+  
